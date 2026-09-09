@@ -1,0 +1,12 @@
+{
+  "/api/health/route": "app/api/health/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/ingestion/page": "app/admin/ingestion/page.js",
+  "/page": "app/page.js",
+  "/atlas/page": "app/atlas/page.js",
+  "/search/page": "app/search/page.js",
+  "/software/[id]/page": "app/software/[id]/page.js",
+  "/discover/page": "app/discover/page.js",
+  "/communities/[id]/page": "app/communities/[id]/page.js",
+  "/workspace/page": "app/workspace/page.js"
+}

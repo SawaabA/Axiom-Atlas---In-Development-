@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AxiomAtlasSeedGraph",
+  "type": "object",
+  "required": ["generated_at", "dataset_name", "dataset_version", "nodes", "edges"],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "dataset_name": { "type": "string" },
+    "dataset_version": { "type": "string" },
+    "nodes": { "type": "array" },
+    "edges": { "type": "array" }
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#070A12] text-slate-50 antialiased;
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+::selection {
+  background: rgba(70, 217, 232, 0.35);
+}

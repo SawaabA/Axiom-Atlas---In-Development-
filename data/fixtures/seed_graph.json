@@ -1,0 +1,571 @@
+{
+  "generated_at": "2026-08-04",
+  "dataset_name": "Axiom Atlas Seed Fixture",
+  "dataset_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "software:sagemath",
+      "type": "software",
+      "title": "SageMath",
+      "summary": "Open-source mathematics software system spanning algebra, geometry, number theory, cryptography, and numerics.",
+      "url": "https://www.sagemath.org",
+      "tags": ["python", "computer algebra", "symbolic algebra", "number theory"],
+      "metadata": {
+        "languages": ["Python", "Cython"],
+        "license": "GPL-3.0-or-later",
+        "status": "active",
+        "msc_codes": ["11-04", "68W30"],
+        "algorithms": ["algorithm:groebner", "algorithm:modular-arithmetic"],
+        "community_id": "community:computational-algebra",
+        "repository": "repository:sagemath"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "software:singular",
+      "type": "software",
+      "title": "Singular",
+      "summary": "Computer algebra system focused on polynomial computations, singularity theory, and algebraic geometry.",
+      "url": "https://www.singular.uni-kl.de",
+      "tags": ["c++", "algebraic geometry", "groebner bases"],
+      "metadata": {
+        "languages": ["C++"],
+        "license": "GPL-2.0-or-later",
+        "status": "active",
+        "msc_codes": ["13P10", "14Q99"],
+        "algorithms": ["algorithm:groebner"],
+        "community_id": "community:computational-algebra",
+        "repository": "repository:singular"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "software:macaulay2",
+      "type": "software",
+      "title": "Macaulay2",
+      "summary": "Research software system supporting computations in algebraic geometry and commutative algebra.",
+      "url": "https://macaulay2.com",
+      "tags": ["commutative algebra", "algebraic geometry"],
+      "metadata": {
+        "languages": ["C++", "M2"],
+        "license": "GPL-2.0-or-later",
+        "status": "active",
+        "msc_codes": ["13-04", "14Q99"],
+        "algorithms": ["algorithm:groebner", "algorithm:hilbert-series"],
+        "community_id": "community:computational-algebra",
+        "repository": "repository:macaulay2"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "software:fenics",
+      "type": "software",
+      "title": "FEniCS",
+      "summary": "Open-source computing platform for solving partial differential equations using the finite element method.",
+      "url": "https://fenicsproject.org",
+      "tags": ["finite elements", "python", "pdes"],
+      "metadata": {
+        "languages": ["Python", "C++"],
+        "license": "LGPL-3.0-or-later",
+        "status": "active",
+        "msc_codes": ["65N30", "65Y05"],
+        "algorithms": ["algorithm:finite-element"],
+        "community_id": "community:scientific-computing",
+        "repository": "repository:fenics"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "software:homotopycontinuationjl",
+      "type": "software",
+      "title": "HomotopyContinuation.jl",
+      "summary": "Julia package for numerical algebraic geometry and homotopy continuation methods.",
+      "url": "https://www.juliahomotopycontinuation.org",
+      "tags": ["julia", "numerical algebraic geometry", "homotopy continuation"],
+      "metadata": {
+        "languages": ["Julia"],
+        "license": "MIT",
+        "status": "active",
+        "msc_codes": ["65H10", "14Q99"],
+        "algorithms": ["algorithm:homotopy-continuation"],
+        "community_id": "community:numerical-algebraic-geometry",
+        "repository": "repository:homotopycontinuationjl"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "paper:groebner-survey",
+      "type": "paper",
+      "title": "Software Ecosystems for Groebner Basis Computation",
+      "summary": "Survey of research software systems used for Groebner basis workflows.",
+      "url": "https://example.org/papers/groebner-survey",
+      "tags": ["groebner bases", "software survey"],
+      "metadata": {
+        "year": 2024,
+        "msc_codes": ["13P10", "68W30"],
+        "software": ["software:sagemath", "software:singular", "software:macaulay2"],
+        "community_id": "community:computational-algebra"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "paper:fenics-pdes",
+      "type": "paper",
+      "title": "Reproducible Finite Element Pipelines with FEniCS",
+      "summary": "Study describing reproducible PDE workflows using FEniCS.",
+      "url": "https://example.org/papers/fenics-pdes",
+      "tags": ["finite element", "reproducibility"],
+      "metadata": {
+        "year": 2023,
+        "msc_codes": ["65N30", "65Y05"],
+        "software": ["software:fenics"],
+        "community_id": "community:scientific-computing"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "paper:homotopy-landscape",
+      "type": "paper",
+      "title": "Modern Software for Numerical Algebraic Geometry",
+      "summary": "Overview of software and community patterns around homotopy continuation.",
+      "url": "https://example.org/papers/homotopy-landscape",
+      "tags": ["numerical algebraic geometry", "julia"],
+      "metadata": {
+        "year": 2025,
+        "msc_codes": ["65H10", "14Q99"],
+        "software": ["software:homotopycontinuationjl"],
+        "community_id": "community:numerical-algebraic-geometry"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "algorithm:groebner",
+      "type": "algorithm",
+      "title": "Groebner Basis Computation",
+      "summary": "Algorithms for transforming polynomial ideals into a canonical basis useful for elimination and solving systems.",
+      "url": "https://example.org/algorithms/groebner",
+      "tags": ["computer algebra"],
+      "metadata": {
+        "domain": "Computational algebra",
+        "software": ["software:sagemath", "software:singular", "software:macaulay2"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "algorithm:finite-element",
+      "type": "algorithm",
+      "title": "Finite Element Method",
+      "summary": "Discretization method for approximating PDE solutions over meshes.",
+      "url": "https://example.org/algorithms/finite-element",
+      "tags": ["numerics"],
+      "metadata": {
+        "domain": "Scientific computing",
+        "software": ["software:fenics"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "algorithm:homotopy-continuation",
+      "type": "algorithm",
+      "title": "Homotopy Continuation",
+      "summary": "Numerical path-tracking family of methods for solving polynomial systems.",
+      "url": "https://example.org/algorithms/homotopy-continuation",
+      "tags": ["numerical algebraic geometry"],
+      "metadata": {
+        "domain": "Numerical algebraic geometry",
+        "software": ["software:homotopycontinuationjl"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "community:computational-algebra",
+      "type": "community",
+      "title": "Computational Algebra",
+      "summary": "Community centered on symbolic computation, polynomial systems, and algebraic geometry software.",
+      "url": "https://example.org/communities/computational-algebra",
+      "tags": ["groebner bases", "symbolic computation"],
+      "metadata": {
+        "dominant_msc_codes": ["13P10", "14Q99", "68W30"],
+        "representative_software": ["software:sagemath", "software:singular", "software:macaulay2"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "community:scientific-computing",
+      "type": "community",
+      "title": "Scientific Computing",
+      "summary": "Community focused on numerical methods, PDE simulation, and reproducible computational workflows.",
+      "url": "https://example.org/communities/scientific-computing",
+      "tags": ["pdes", "simulation"],
+      "metadata": {
+        "dominant_msc_codes": ["65N30", "65Y05"],
+        "representative_software": ["software:fenics"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "community:numerical-algebraic-geometry",
+      "type": "community",
+      "title": "Numerical Algebraic Geometry",
+      "summary": "Community spanning homotopy methods, polynomial systems, and numerical solving strategies.",
+      "url": "https://example.org/communities/numerical-algebraic-geometry",
+      "tags": ["homotopy continuation", "julia"],
+      "metadata": {
+        "dominant_msc_codes": ["65H10", "14Q99"],
+        "representative_software": ["software:homotopycontinuationjl"]
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "repository:sagemath",
+      "type": "repository",
+      "title": "sagemath/sage",
+      "summary": "Primary SageMath source repository.",
+      "url": "https://github.com/sagemath/sage",
+      "tags": ["github"],
+      "metadata": {
+        "host": "GitHub",
+        "primary_language": "Python",
+        "license": "GPL-3.0-or-later"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "repository:singular",
+      "type": "repository",
+      "title": "Singular/Singular",
+      "summary": "Primary Singular source repository.",
+      "url": "https://github.com/Singular/Singular",
+      "tags": ["github"],
+      "metadata": {
+        "host": "GitHub",
+        "primary_language": "C++",
+        "license": "GPL-2.0-or-later"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "repository:macaulay2",
+      "type": "repository",
+      "title": "Macaulay2/M2",
+      "summary": "Primary Macaulay2 source repository.",
+      "url": "https://github.com/Macaulay2/M2",
+      "tags": ["github"],
+      "metadata": {
+        "host": "GitHub",
+        "primary_language": "C++",
+        "license": "GPL-2.0-or-later"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "repository:fenics",
+      "type": "repository",
+      "title": "FEniCS/dolfinx",
+      "summary": "Primary FEniCS project repository.",
+      "url": "https://github.com/FEniCS/dolfinx",
+      "tags": ["github"],
+      "metadata": {
+        "host": "GitHub",
+        "primary_language": "C++",
+        "license": "LGPL-3.0-or-later"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    },
+    {
+      "id": "repository:homotopycontinuationjl",
+      "type": "repository",
+      "title": "JuliaHomotopyContinuation/HomotopyContinuation.jl",
+      "summary": "Primary HomotopyContinuation.jl source repository.",
+      "url": "https://github.com/JuliaHomotopyContinuation/HomotopyContinuation.jl",
+      "tags": ["github"],
+      "metadata": {
+        "host": "GitHub",
+        "primary_language": "Julia",
+        "license": "MIT"
+      },
+      "provenance": {
+        "source": "local_fixture",
+        "evidence": "Seed fixture aligned to production schema for Phase 1 development",
+        "confidence": 1.0,
+        "retrieved_at": "2026-08-04"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:paper:groebner-survey:uses:sagemath",
+      "source": "paper:groebner-survey",
+      "target": "software:sagemath",
+      "type": "USES_SOFTWARE",
+      "evidence": "Fixture relation derived from documented software list",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:groebner-survey:uses:singular",
+      "source": "paper:groebner-survey",
+      "target": "software:singular",
+      "type": "USES_SOFTWARE",
+      "evidence": "Fixture relation derived from documented software list",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:groebner-survey:uses:macaulay2",
+      "source": "paper:groebner-survey",
+      "target": "software:macaulay2",
+      "type": "USES_SOFTWARE",
+      "evidence": "Fixture relation derived from documented software list",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:fenics-pdes:uses:fenics",
+      "source": "paper:fenics-pdes",
+      "target": "software:fenics",
+      "type": "USES_SOFTWARE",
+      "evidence": "Fixture relation derived from documented software list",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:homotopy-landscape:uses:homotopycontinuationjl",
+      "source": "paper:homotopy-landscape",
+      "target": "software:homotopycontinuationjl",
+      "type": "USES_SOFTWARE",
+      "evidence": "Fixture relation derived from documented software list",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:sagemath:implements:groebner",
+      "source": "software:sagemath",
+      "target": "algorithm:groebner",
+      "type": "IMPLEMENTS",
+      "evidence": "Fixture implementation relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:singular:implements:groebner",
+      "source": "software:singular",
+      "target": "algorithm:groebner",
+      "type": "IMPLEMENTS",
+      "evidence": "Fixture implementation relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:macaulay2:implements:groebner",
+      "source": "software:macaulay2",
+      "target": "algorithm:groebner",
+      "type": "IMPLEMENTS",
+      "evidence": "Fixture implementation relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:fenics:implements:finite-element",
+      "source": "software:fenics",
+      "target": "algorithm:finite-element",
+      "type": "IMPLEMENTS",
+      "evidence": "Fixture implementation relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:homotopycontinuationjl:implements:homotopy-continuation",
+      "source": "software:homotopycontinuationjl",
+      "target": "algorithm:homotopy-continuation",
+      "type": "IMPLEMENTS",
+      "evidence": "Fixture implementation relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:sagemath:member-of:computational-algebra",
+      "source": "software:sagemath",
+      "target": "community:computational-algebra",
+      "type": "MEMBER_OF",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:singular:member-of:computational-algebra",
+      "source": "software:singular",
+      "target": "community:computational-algebra",
+      "type": "MEMBER_OF",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:macaulay2:member-of:computational-algebra",
+      "source": "software:macaulay2",
+      "target": "community:computational-algebra",
+      "type": "MEMBER_OF",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:fenics:member-of:scientific-computing",
+      "source": "software:fenics",
+      "target": "community:scientific-computing",
+      "type": "MEMBER_OF",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:homotopycontinuationjl:member-of:numerical-algebraic-geometry",
+      "source": "software:homotopycontinuationjl",
+      "target": "community:numerical-algebraic-geometry",
+      "type": "MEMBER_OF",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:sagemath:repo:sagemath",
+      "source": "software:sagemath",
+      "target": "repository:sagemath",
+      "type": "HAS_REPOSITORY",
+      "evidence": "Fixture repository relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:singular:repo:singular",
+      "source": "software:singular",
+      "target": "repository:singular",
+      "type": "HAS_REPOSITORY",
+      "evidence": "Fixture repository relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:macaulay2:repo:macaulay2",
+      "source": "software:macaulay2",
+      "target": "repository:macaulay2",
+      "type": "HAS_REPOSITORY",
+      "evidence": "Fixture repository relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:fenics:repo:fenics",
+      "source": "software:fenics",
+      "target": "repository:fenics",
+      "type": "HAS_REPOSITORY",
+      "evidence": "Fixture repository relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:software:homotopycontinuationjl:repo:homotopycontinuationjl",
+      "source": "software:homotopycontinuationjl",
+      "target": "repository:homotopycontinuationjl",
+      "type": "HAS_REPOSITORY",
+      "evidence": "Fixture repository relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:groebner-survey:community:computational-algebra",
+      "source": "paper:groebner-survey",
+      "target": "community:computational-algebra",
+      "type": "ASSOCIATED_WITH",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:fenics-pdes:community:scientific-computing",
+      "source": "paper:fenics-pdes",
+      "target": "community:scientific-computing",
+      "type": "ASSOCIATED_WITH",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    },
+    {
+      "id": "edge:paper:homotopy-landscape:community:numerical-algebraic-geometry",
+      "source": "paper:homotopy-landscape",
+      "target": "community:numerical-algebraic-geometry",
+      "type": "ASSOCIATED_WITH",
+      "evidence": "Fixture community relation",
+      "confidence": 1.0
+    }
+  ]
+}

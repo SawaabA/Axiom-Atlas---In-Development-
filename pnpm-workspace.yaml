@@ -1,0 +1,10 @@
+packages:
+  - apps/web
+  - packages/ui
+  - packages/shared-types
+  - packages/api-client
+  - packages/configuration
+  - packages/testing
+allowBuilds:
+  esbuild: true
+  sharp: true
